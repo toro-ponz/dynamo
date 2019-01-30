@@ -8,5 +8,6 @@ services:
       TZ: Asia/Tokyo
     ports:
       - 8000:8000
+    command: -jar DynamoDBLocal.jar -dbPath /home/dynamodblocal/data 
     volumes:
-      - ./docker/dynamodb/bin:/data
+      - ./docker/dynamodb/bin:/home/dynamodblocal/data
