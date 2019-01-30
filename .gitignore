@@ -1,0 +1,3 @@
+/docker/dynamodb/bin/*
+
+!.gitkeep
